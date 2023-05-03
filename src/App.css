@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.font-italic{
+  font-style: italic !important;
+}
+
 .bgimage{
   background-image: url('./Assets/A2.jpg');
   background-size: cover;

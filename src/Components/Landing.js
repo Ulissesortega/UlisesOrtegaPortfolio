@@ -19,7 +19,7 @@ export default function Landing() {
 
         <Row>
           <Col>
-            <Button className="rounded-pill under-title-loc" onClick={()=> alert('It works')}>About Me</Button>
+            <Button className="rounded-pill under-title-loc font-italic" onClick={()=> alert('It works')}>About Me</Button>
           </Col>     
         </Row>    
 
