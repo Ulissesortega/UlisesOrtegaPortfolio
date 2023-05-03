@@ -10,3 +10,24 @@
   min-width: 100vw;
   min-height: 100vh;
 }
+
+.title-format{
+  color: aqua;
+  font-size: 55px;
+  font-style: italic;
+}
+
+.title-location{
+  margin-top: 12%;
+  margin-left: 19%;
+}
+
+.under-title{
+  color: aqua;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.under-title-loc{
+  margin-left: 19%;
+}

@@ -11,10 +11,10 @@ export default function MyNavbar() {
         <Container>
           <Navbar.Brand href="#home" as={Link} to='/'>Home</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#About" as={Link} to='About'>About</Nav.Link>
-            <Nav.Link href="#Skills" as={Link} to='Skills'>Skills</Nav.Link>
-            <Nav.Link href="#Projects" as={Link} to='Projects'>Projects</Nav.Link>
-            <Nav.Link href="#Contact" as={Link} to='Contact'>Contact</Nav.Link>
+            <Nav.Link as={Link} to='/About'>About</Nav.Link>
+            <Nav.Link as={Link} to='/Skills'>Skills</Nav.Link>
+            <Nav.Link as={Link} to='/Projects'>Projects</Nav.Link>
+            <Nav.Link as={Link} to='/Contact'>Contact</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

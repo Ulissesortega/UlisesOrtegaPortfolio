@@ -10,7 +10,19 @@ export default function Landing() {
     <div className="bgimage">
       <Navbar />
       <Container>
-        <h1>Ulises Ortega</h1>
+        <Row>
+          <Col>
+            <p className="title-format title-location">Ulises Ortega</p>
+            <p className="under-title under-title-loc">Jr. Web Developer</p>
+          </Col>
+        </Row>
+
+        <Row>
+          <Col>
+            <Button className="rounded-pill under-title-loc" onClick={()=> alert('It works')}>About Me</Button>
+          </Col>     
+        </Row>    
+
       </Container>
     </div>
   );

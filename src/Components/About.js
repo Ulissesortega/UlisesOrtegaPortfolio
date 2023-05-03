@@ -9,11 +9,14 @@ import { NavLink, useLocation } from 'react-router-dom';
 
 export default function About() {
 
-  const { pathname } = useLocation();
-
   return (
     <div className="bgimage">
       <Navbar />
+      <Row>
+        <Col>
+          <p>Skills Component</p>
+        </Col>
+      </Row>
     </div>
   );
 }
