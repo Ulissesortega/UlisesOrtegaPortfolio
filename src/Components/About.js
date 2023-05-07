@@ -15,6 +15,7 @@ export default function About() {
       <Row>
         <Col>
           <p>Skills Component</p>
+          
         </Col>
       </Row>
     </div>

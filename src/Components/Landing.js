@@ -19,9 +19,11 @@ export default function Landing() {
 
         <Row>
           <Col>
-            <Button className="rounded-pill under-title-loc font-italic" onClick={()=> alert('It works')}>About Me</Button>
-          </Col>     
-        </Row>    
+            <Link to="/About">
+              <Button className="rounded-pill under-title-loc font-italic">About Me</Button>
+            </Link>
+          </Col>
+        </Row>
 
       </Container>
     </div>
