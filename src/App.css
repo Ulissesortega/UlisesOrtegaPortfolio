@@ -22,8 +22,8 @@
 }
 
 .title-location{
-  margin-top: 12%;
-  margin-left: 19%;
+  margin-top: 10%;
+  margin-left: 7%;
 }
 
 .under-title{
@@ -33,7 +33,7 @@
 }
 
 .under-title-loc{
-  margin-left: 19%;
+  margin-left: 7%;
 }
 
 .animate-charcter {
@@ -62,4 +62,12 @@
   to {
     background-position: -200% center;
   }
+}
+
+.imgloc{
+  margin-left: 40%;
+}
+
+.br{
+  border-radius: 10px;
 }
