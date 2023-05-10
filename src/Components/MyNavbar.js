@@ -9,12 +9,12 @@ export default function MyNavbar() {
     <div>      
       <Navbar bg="" variant="dark">
         <Container>
-          <Navbar.Brand href="#home" as={Link} to='/'>Home</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link as={Link} to='/About'>About</Nav.Link>
-            <Nav.Link as={Link} to='/Skills'>Skills</Nav.Link>
-            <Nav.Link as={Link} to='/Projects'>Projects</Nav.Link>
-            <Nav.Link as={Link} to='/Contact'>Contact</Nav.Link>
+            <Nav.Link as={Link} to='/'>HOME</Nav.Link>
+            <Nav.Link as={Link} to='/About'>ABOUT</Nav.Link>
+            <Nav.Link as={Link} to='/Skills'>SKILLS</Nav.Link>
+            <Nav.Link as={Link} to='/Projects'>PROJECTS</Nav.Link>
+            <Nav.Link as={Link} to='/Contact'>CONTACT</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

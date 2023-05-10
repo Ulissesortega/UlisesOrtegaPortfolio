@@ -19,6 +19,12 @@ export default function Landing() {
 
         <Row>
           <Col>
+          <img className='img-fluid imgformatlocation' src={require('../Assets/Photo.png')} alt="Logo" width={350} />
+          </Col>
+        </Row>
+
+        <Row>
+          <Col>
             <Link to="/About">
               <Button className="rounded-pill under-title-loc font-italic">About Me</Button>
             </Link>
